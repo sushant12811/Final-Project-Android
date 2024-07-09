@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_green_color">#3F804A</color>
+    <color name="secondary_green_color">#0D5A19</color>
+    <color name="light_green_color">#cee0d1</color>
+    <color name="grey_color">#acb5b2</color>
+
+    <color name="favourite_maroon_color">#9E3434</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+</resources>

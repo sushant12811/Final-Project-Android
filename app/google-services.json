@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "717553455284",
+    "project_id": "restauranthub-418102",
+    "storage_bucket": "restauranthub-418102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717553455284:android:a5c64b199ddf02eefac7e1",
+        "android_client_info": {
+          "package_name": "com.example.restauranthub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWEIqsmKwchmkJroff8uuyoJ8gfr-G86A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

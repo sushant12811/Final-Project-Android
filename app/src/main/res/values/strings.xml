@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">RestaurantHub</string>
+
+
+    <string-array name="restaurantNameArray">
+        <item>The Farmhouse Restaurant</item>
+        <item>Casa Mia Barrie</item>
+        <item>Grillicious Restaurant and Wine Bar</item>
+        <item>Bâton Rouge Grillhouse and Bar</item>
+        <item>Taj Bistro</item>
+        <item>Il Buco</item>
+        <item>Zio\'s Italian Comfort Food</item>
+        <item>Cottage Canoe Restaurant</item>
+        <item>The Canadian Brewhouse (Barrie)</item>
+        <item>Symposium Cafe Restaurant Barrie</item>
+        <item>Bull and Barrel Pub</item>
+        <item>Chaopaya Thai Restaurant</item>
+
+
+    </string-array>
+
+    <string-array name="locationArray">
+        <item>268 Bradford St \nBarrie</item>
+        <item>88 Dunlop St \nBarrie</item>
+        <item>2 Marsellus Dr Unit 1 and 2\nBarrie</item>
+        <item>336 Bayfield St \nBarrie</item>
+        <item>140 Dunlop St E #101\nBarrie</item>
+        <item>31 Dunlop St E \nBarrie</item>
+        <item>110 Anne St S \nBarrie</item>
+        <item>453 Dunlop St W \nBarrie</item>
+        <item>125 Park Pl Blvd \nBarrie</item>
+        <item>125 307 Cundles Rd E \nBarrie</item>
+        <item>901-75 Cedar Pointe Dr \nBarrie</item>
+        <item>168 Dunlop St E \nBarrie</item>
+
+    </string-array>
+
+    <string-array name="detailsArray">
+
+        <item> Homey eatery with multiple rooms offering Canadian cuisine and patios overlooking the bay.Service Options:Has outdoor seating,Has fireplace and Serves great cocktails</item>
+
+        <item>Warm, spacious fixture providing traditional Greek and Italian cuisine in a low-lit setting.Service options: Serves vegetarian dishes, Has kids menu.</item>
+        <item>Service options: Has outdoor seating, Serves great cocktails,Serves vegan dishes</item>
+
+        <item>Service options: Has outdoor seating, Has fireplace, Serves great cocktails</item>
+        <item>Service options Serves vegan dishes, Has Wi-Fi , High chairs available</item>
+        <item>Polished venue offering traditional Italian fare, including pasta, veal and seafood, plus lake views.Service options: Reservations required, Has outdoor seating</item>
+
+        <item>A menu with an array of small and shared Italian-inspired dishes in a relaxed space with green walls.Service options: Serves vegetarian dishes, Has kids menu</item>
+
+        <item>Rustic, relaxed set-up for hearty breakfast, international favorites and desserts plus beer and wine.Service options: Has fireplace, Serves vegetarian dishes, Has kids menu</item>
+
+        <item>Service options: Has outdoor seating · Serves great cocktails, Good for watching sports</item>
+
+        <item>Breakfast standards and gourmet comfort food served in a stylish space with a Renaissance theme.Service options: Serves happy hour food, Serves vegan dishes, Has Wi-Fi</item>
+        <item>Beer, cocktails and English pub grub in a relaxed setting with dark-wood decor and weekend live music.Service options: Has outdoor seating, Serves great cocktails ,Has live music</item>
+
+        <item>Thai curries, noodles and rice dishes in a cozy, colourful spot filled with traditional art and decor.Service options: Has outdoor seating, Serves vegan dishes, High chairs available</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="restaurant_name">Restaurant name</string>
+    <string name="location">Location</string>
+
+
+</resources>
