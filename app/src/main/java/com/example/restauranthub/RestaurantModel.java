@@ -14,16 +14,14 @@ public class RestaurantModel implements Serializable {
     public RestaurantModel() {
     }
 
-
-
-    public RestaurantModel(String restaurantName, String location, String restaurantImage,
-                           String details, String id, int restaurantImageResourceId, boolean isFavorite) {
+    public RestaurantModel(String restaurantName, String restaurantLocation, String restaurantImage,
+                           String restaurantDetails, String id, int restaurantImageResourceId, boolean isFavorite) {
         this.restaurantName = restaurantName;
-        this.restaurantLocation = location;
+        this.restaurantLocation = restaurantLocation;
         this.restaurantImage = restaurantImage;
-        this.restaurantDetails = details;
-        this.restaurantImageResourceId = restaurantImageResourceId;
+        this.restaurantDetails = restaurantDetails;
         this.id = id;
+        this.restaurantImageResourceId = restaurantImageResourceId;
         this.isFavorite = isFavorite;
     }
 
@@ -74,6 +72,7 @@ public class RestaurantModel implements Serializable {
     public void setRestaurantImageResourceId(int restaurantImageResourceId) {
         this.restaurantImageResourceId = restaurantImageResourceId;
     }
+
     public boolean isFavorite() {
         return isFavorite;
     }
@@ -81,6 +80,4 @@ public class RestaurantModel implements Serializable {
     public void setFavorite(boolean favorite) {
         isFavorite = favorite;
     }
-
-
 }
