@@ -50,7 +50,7 @@ public class RestaurantRecyclerListingActivity extends AppCompatActivity impleme
                 if (result != null) {
                     restaurantArrayList.clear(); // Clear previous data if any
                     for (QueryDocumentSnapshot document : result) {
-                        Log.d("TAG SUDARSHAN", document.getId() + " => " + document.getData());
+                        Log.d("TAG ", document.getId() + " => " + document.getData());
                         restaurantArrayList.add(new RestaurantModel(
                                 document.getString("restaurantNames"),
                                 document.getString("restaurantLocation"),
@@ -63,13 +63,13 @@ public class RestaurantRecyclerListingActivity extends AppCompatActivity impleme
                     }
                     filteredList.addAll(restaurantArrayList);
                     restaurantListAdapter.notifyDataSetChanged();
-                    Log.d("TAG SUDARSHAN", "Restaurant List: " + restaurantArrayList);
+                    Log.d("TAG ", "Restaurant List: " + restaurantArrayList);
                 }
             }
 
             @Override
             public void onFailure(Exception e) {
-                Log.w("TAG SUDARSHAN", "Error getting documents.", e);
+                Log.w("TAG ", "Error getting documents.", e);
             }
         });
 
