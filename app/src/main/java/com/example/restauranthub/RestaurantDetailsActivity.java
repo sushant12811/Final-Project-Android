@@ -15,14 +15,12 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.bumptech.glide.Glide;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-
 import java.io.ByteArrayOutputStream;
 import java.util.HashMap;
 import java.util.Map;
@@ -218,7 +216,6 @@ public class RestaurantDetailsActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
 
-
     }
 
 
@@ -227,7 +224,5 @@ public class RestaurantDetailsActivity extends AppCompatActivity {
    finish();
 
 }
-
-
 
 }

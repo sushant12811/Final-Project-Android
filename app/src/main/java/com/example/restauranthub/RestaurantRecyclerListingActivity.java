@@ -45,6 +45,7 @@ public class RestaurantRecyclerListingActivity extends AppCompatActivity impleme
         fbStore = FirebaseFirestore.getInstance();
         FireBaseConfig fireBaseConfig = new FireBaseConfig(fbStore);
         fireBaseConfig.getRestaurants(new FireBaseCallback() {
+            @SuppressLint("NotifyDataSetChanged")
             @Override
             public void onCallback(QuerySnapshot result) {
                 if (result != null) {
@@ -186,6 +187,12 @@ public class RestaurantRecyclerListingActivity extends AppCompatActivity impleme
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(System.currentTimeMillis());
         calendar.add(Calendar.MINUTE, 1);
+
+        // Set the time to 8 AM
+//        calendar.set(Calendar.HOUR_OF_DAY, 9);
+//        calendar.set(Calendar.MINUTE, 0);
+//        calendar.set(Calendar.SECOND, 0);
+
 
         alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
                 AlarmManager.INTERVAL_DAY, pendingIntent);
